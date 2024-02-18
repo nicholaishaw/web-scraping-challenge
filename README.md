@@ -13,17 +13,25 @@ In the Jupyter folder, the file named deliverable_1_mars_news.ipynb will be used
 1. I used automated browsing to visit the [Mars news site](https://static.bc-edx.com/data/web/mars_news/index.html). Inspect the page to identify which elements to scrape using chrome developer tools.
 2. I created a Beautiful Soup object and use it to extract text elements from the website.
 
-![image](https://github.com/nicholaishaw/web-scraping-challenge/assets/135463220/d70daa34-1dc8-4854-988f-183d8124b94e)
+![image](https://github.com/nicholaishaw/web-scraping-challenge/assets/135463220/045ce3e4-0606-4545-a807-226ddd7f8280)
 
-**Figure 1.**
+**Figure 1.** *Using the Beautiful Soup object to extract all of the text elements on the Mars webpage.*
 
-4. I extracted the titles and preview text of the news articles. I stored the scraping results in Python data structures as follows:
-    * Stored each title-and-preview pair in a Python dictionary and, give each dictionary two keys: title and preview. An example is the following:
-<EXAMPLE HERE>
+4. I extracted the titles and preview text of the website.
+
+![image](https://github.com/nicholaishaw/web-scraping-challenge/assets/135463220/96e47de0-e523-4079-8e2f-84b1a908928d)
+
+**Figure 2.** *Extracting all of the titles and previews from the website.*
+   
+6. I stored the titles and preview scraped above in Python data structures as follows:
+    * Stored each title-and-preview pair in a Python dictionary and, give each dictionary two keys: title and preview.
     * Stored all the dictionaries in a Python list.
     * Printed the list in your notebook.
     * An example of this output is as follows:
-5. Optionally, store the scraped data in a file (to ease sharing the data with others). To do so, export the scraped data to a JSON file.
+
+![image](https://github.com/nicholaishaw/web-scraping-challenge/assets/135463220/717c158f-e35d-482e-84d6-459bffb01340)
+
+**Figure 3.** *Code to store all of the titles and previews in a Python dictionary.*
 
 ## Deliverable 2: Scrape and Analyze Mars Weather Data
 In the Jupyter folder, the file named part_2_mars_weather.ipynb will be used for this deliverable. To scrape and analyze Mars weather data, I will complete the following steps:
