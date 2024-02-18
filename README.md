@@ -36,11 +36,17 @@ ___
 **Figure 3.** *Code to store all of the titles and previews in a Python dictionary.*
 
 ## Deliverable 2: Scrape and Analyze Mars Weather Data
-In the Jupyter folder, the file named part_2_mars_weather.ipynb will be used for this deliverable. To scrape and analyze Mars weather data, I will complete the following steps:
+In the Jupyter folder, the file named deliverable_2_mars_weather.ipynb will be used for this deliverable. To scrape and analyze Mars weather data, I will complete the following steps:
 
-1. Use automated browsing to visit the [Mars Temperature Data Site](https://static.bc-edx.com/data/web/mars_facts/temperature.html). Inspect the page to identify which elements to scrape.
-2. Create a Beautiful Soup object and use it to scrape the data in the HTML table. Note that this can also be achieved by using the Pandas read_html function. However, use Beautiful Soup here to continue sharpening your web scraping skills.
-3. Assemble the scraped data into a Pandas DataFrame. The columns should have the same headings as the table on the website. Here’s an explanation of the column headings:
+1. I used automated browsing to visit the [Mars Temperature Data Site](https://static.bc-edx.com/data/web/mars_facts/temperature.html). I inspected the page to identify which elements to scrape.
+2. I created a Beautiful Soup object and use it to scrape the data in the HTML table. This can also be achieved by using the Pandas 'read_html' function. However, I used Beautiful Soup here to showcase my web scraping skills.
+
+![image](https://github.com/nicholaishaw/web-scraping-challenge/assets/135463220/9359112b-9a59-413e-af62-9c395a0879d1)
+
+**Figure 4.** *The Beautiful Soup object used to scrape the HTML information from the Mars Weather Data website.*
+
+___
+3. I assembled the scraped data into a Pandas DataFrame. I gave the columns the same headings as the table on the website. Below is an explanation of the column headings:
     * id: the identification number of a single transmission from the Curiosity rover
     * terrestrial_date: the date on Earth
     * sol: the number of elapsed sols (Martian days) since Curiosity landed on Mars
@@ -48,7 +54,13 @@ In the Jupyter folder, the file named part_2_mars_weather.ipynb will be used for
     * month: the Martian month
     * min_temp: the minimum temperature, in Celsius, of a single Martian day (sol)
     * pressure: The atmospheric pressure at Curiosity's location
-4. Examine the data types that are currently associated with each column. If necessary, cast (or convert) the data to the appropriate datetime, int, or float data types.
+   
+![image](https://github.com/nicholaishaw/web-scraping-challenge/assets/135463220/a6a145cc-7cbd-4bb8-961a-efe9630ff082)
+
+**Figure 5.** *Storing all of the scraped data in a Pandas dataframe.*
+
+___
+4. I examined the data types that are currently associated with each column. I converted the data to the appropriate datetime, int, or float data types.
 5. Analyze your dataset by using Pandas functions to answer the following questions:
     * How many months exist on Mars?
     * How many Martian (and not Earth) days worth of data exist in the scraped dataset?
@@ -61,4 +73,10 @@ In the Jupyter folder, the file named part_2_mars_weather.ipynb will be used for
     * About how many terrestrial (Earth) days exist in a Martian year? To answer this question:
         * Consider how many days elapse on Earth in the time that Mars circles the Sun once.
         * Visually estimate the result by plotting the daily minimum temperature.
-6. Export the DataFrame to a CSV file.
+
+![image](https://github.com/nicholaishaw/web-scraping-challenge/assets/135463220/32dfa932-7d0f-4595-9bdc-88576a73d0fb)
+
+**Figure 6.** *Sample analyses and graphs from the scraped data.*
+
+___
+6. I exported the DataFrame to a CSV file.
