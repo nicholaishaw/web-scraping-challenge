@@ -1,7 +1,7 @@
 # Data Analysis With Web Scraping
 
 ## Background
-In a fictional world, I am taking on a full web-scraping and data analysis project. Throughout my data analysis education, I have learned to identify HTML elements on a page, identify their id and class attributes, and use this knowledge to extract information via both automated browsing with Splinter and HTML parsing with Beautiful Soup. I have also learned to scrape various types of information, including HTML tables and recurring elements—like multiple news articles on a webpage.
+In this challenge, I am taking on a full web-scraping and data analysis project for a fictional company. Throughout my data analysis education, I have learned to identify HTML elements on a page, identify their id and class attributes, and use this knowledge to extract information via both automated browsing with Splinter and HTML parsing with Beautiful Soup. I have also learned to scrape various types of information, including HTML tables and recurring elements—like multiple news articles on a webpage.
 
 In this challenge, I am working on two deliverables:
 * Deliverable 1: Scrape titles and preview text from Mars news articles.
