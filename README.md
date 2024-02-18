@@ -18,14 +18,14 @@ In the Jupyter folder, the file named deliverable_1_mars_news.ipynb will be used
 **Figure 1.** *Using the Beautiful Soup object to extract all of the text elements on the Mars webpage.*
 
 ___
-4. I extracted the titles and preview text of the website.
+3. I extracted the titles and preview text of the website.
 
 ![image](https://github.com/nicholaishaw/web-scraping-challenge/assets/135463220/96e47de0-e523-4079-8e2f-84b1a908928d)
 
 **Figure 2.** *Extracting all of the titles and previews from the website.*
 
 ___
-6. I stored the titles and preview scraped above in Python data structures as follows:
+4. I stored the titles and preview scraped above in Python data structures as follows:
     * Stored each title-and-preview pair in a Python dictionary and, give each dictionary two keys: title and preview.
     * Stored all the dictionaries in a Python list.
     * Printed the list in your notebook.
